@@ -1,0 +1,511 @@
+:root{
+    --primary-color: #880e4f;
+    --secondary-color: #1bbc9d;
+    --primary-color-light: #E1BEE7;
+    --primary-color-mellow: #9C27B0;
+}
+
+
+
+
+*{
+    font-family: IRANSansWeb;
+    text-decoration: none !important;
+}
+
+.sticky-menu-hover button:hover{
+    background-color: var(--primary-color) !important;
+    color: white;
+}
+.sticky-menu-hover button{
+    transition: all 0.3s ease !important;
+}
+
+
+.main-color{
+    color: var(--primary-color) !important;
+    transition: all 0.3s ease !important;
+}
+.main-color-hover:hover{
+    color: var(--primary-color-mellow) !important;
+    transition: all 0.3s ease !important;
+}
+
+.secondary-color{
+    color: var(--secondary-color) !important;
+}
+
+.bg-main-color{
+    background-color: var(--primary-color) !important;
+}
+.bg-secondary-color{
+   background-color: var(--secondary-color) !important;
+}
+.bg-header-main{
+    /*background-color: #DADADA;*/
+    /*#ffffe83a*/
+}
+/*Start btn*/
+.main-btn{
+    color: #fefefe !important;
+    background-color: #38006b !important;
+    transition: all 0.3s ease !important;
+    border: 1px solid  #38006b !important;
+}
+.main-btn:hover{
+    color: #38006b !important;
+    background-color: #fefefe !important;
+    border: 1px solid  #38006b !important;
+}
+
+.secondary-btn{
+    color: #fefefe !important;
+    background-color: var(--secondary-color) !important;
+    transition: all 0.3s ease !important;
+    border: 1px solid  var(--secondary-color) !important;
+}
+.secondary-btn:hover{
+    color: var(--secondary-color) !important;
+    background-color: #fefefe !important;
+    border: 1px solid  var(--secondary-color) !important;
+}
+.primary-btn{
+    color: var(--secondary-color) !important;
+    background-color: var(--primary-color) !important;
+    transition: all 0.3s ease !important;
+    border: 1px solid  var(--primary-color) !important;
+    font-weight: bold;
+}
+.primary-btn:hover{
+    color: var(--primary-color) !important;
+    background-color: var(--secondary-color) !important;
+    transition: all 0.3s ease !important;
+    border: 1px solid  var(--secondary-color) !important;
+}
+/*End btn*/
+
+.header-logo{
+    width: 84px !important;
+    height: 84px !important;
+}
+
+.under-nav-logo{
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.custom-logo-show{
+    transition: all 0.9s ease;
+}
+.custom-middle:hover .custom-logo-show{
+    border-radius: 30% !important;
+    background-color: var(--primary-color) !important;
+}
+.offbegir-hover:hover{
+    transition: all 0.9s ease;
+    border-radius: 30% !important;
+    background-color: var(--primary-color) !important;
+}
+
+@font-face {
+    font-family: IRANSansWeb;
+    src: url('../font/IRANSansWeb.ttf') format('truetype');
+}
+.custom-input-group input,button{
+    font-size: 14px !important;
+    box-shadow: none !important;
+}
+
+.custom-header{
+    font-size: 14px;
+}
+
+.custom-header-sm a{
+    font-size: 20px;
+}
+
+.persian {
+    direction: rtl;
+    text-align: right;
+    font-family: IRANSansWeb;
+}
+
+.rtl{
+    direction: rtl !important;
+}
+
+.ltr{
+    direction: ltr !important;
+}
+
+.custom-font-badge i{
+    font-size: 16px !important;
+}
+.badge-main-color{
+    color: #fefefe !important;
+    background-color: #38006b !important;
+}
+.custom-navbar-nav .nav-link{
+    font-size: 14px !important;
+    color: #fefefe !important;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent !important;
+}
+
+.custom-navbar-nav .nav-link:hover{
+    border-bottom: 2px solid var(--secondary-color) !important;
+    transition: all 0.3s ease;
+}
+
+.custom-navbar-nav li a:hover{
+    color: var(--secondary-color) !important;
+}
+
+.custom-navbar-nav li a:active{
+    color: #fefefe !important;
+    background-color: var(--secondary-color) !important;
+}
+
+.custom-nav-item div a:active{
+    color: #fefefe !important;
+    background-color: var(--secondary-color) !important;
+}
+
+
+.custom-navbar-nav .custom-dropdown-menu a{
+    color: #38006b ;
+    transition: all 0.1s ease;
+}
+.custom-navbar-nav .custom-dropdown-menu a:hover{
+    color: var(--primary-color) !important;
+}
+.custom-dropdown-menu .dropdown-header{
+    color: #38006b;
+}
+
+@media (min-width: 992px) {
+    .custom-dropdown-menu{
+        opacity: 0 !important;
+        display: block !important;
+        visibility: hidden !important;
+        transition: all 0.3s ease !important;
+        transition-delay: 0.1s !important;
+        margin-top: 10px !important;
+    }
+    .dropdown:hover .custom-dropdown-menu{
+        opacity: 1 !important;
+        display: block !important;
+        visibility: visible !important;
+        margin-top: 2px !important
+    }
+    .w-form{
+        width: 100px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-border{
+        font-size: 10px !important;
+    }
+    .font-for-sm{
+        font-size: 14px !important;
+    }
+}
+
+.custom-middle{
+    position: relative !important;
+    background-blend-mode: overlay !important;
+    background-image: url("../img/background1.jpg") !important;
+    width: 100%;
+    height: 200px;
+}
+
+.counter-down{
+    font-weight: 500 !important;
+    color: #fefefe;
+    transition: all 0.3s ease;
+}
+
+.custom-counter-down:hover .counter-down{
+
+}
+
+/*start offer header*/
+.custom-border::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: var(--secondary-color);
+    position: relative;
+    top: 34px;
+}
+.custom-col{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+/*end offer header*/
+
+/* Start nav pills style*/
+
+/* End nav pills style*/
+
+/* Start Font Small*/
+.font-sm{
+    font-size: 12px !important;
+}
+/* End Font Small*/
+
+/* Start Font Large*/
+.font-lg{
+    font-size: 18px !important;
+}
+/* End Font Large*/
+
+
+/* Start Card Style */
+.custom-card .sblayer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.custom-card .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-out;
+    border-radius: 2px;
+}
+
+.custom-card:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.custom-card .overlay .btn {
+    position: absolute !important;
+    top:65%;
+    right: 50%;
+    transform: translate(50%, -50%) scale(0);
+    transition: all 0.2s ease-out;
+    border-radius: 35px;
+    font-size: 13px;
+
+}
+
+.custom-card:hover .overlay .btn {
+    transform: translate(50%, -50%) scale(1);
+}
+
+.custom-card .overlay .badge {
+    position: absolute;
+    right: 50%;
+    top: 15%;
+    transform: translate(50%, -50%) scale(0);
+    transition: all 0.2s ease-out 0.1s;
+    border-radius: 35px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.custom-card:hover .overlay .badge {
+    transform: translate(50%, -50%) scale(1);
+}
+
+.custom-cardbody a {
+    font-size: 16px !important;
+    transition: all 0.3s ease;
+
+}
+
+.card-footer small.badge {
+    font-weight: lighter !important;
+}
+.card .card-footer div del {
+    color: #cdcdcd !important;
+    font-size: x-small !important;
+    font-weight: lighter !important;
+    text-decoration: line-through !important;
+}
+/* End Card Style */
+
+/* Start BoxShadow None */
+.box-shadow-none{
+    box-shadow: none !important;
+}
+/* Start BoxShadow None */
+
+/* Start Footer Background*/
+.bg-footer{
+    background-color: #cecece !important;
+}
+/* End Footer Background*/
+
+/* Start Card Hover */
+.card-hover {
+    transition: all 0.5s ease;
+}
+
+.card-hover:hover {
+    border-radius: 20px;
+    background-color: #eeeeee !important;
+}
+/* End Card Hover */
+
+/* Start Span width size*/
+.w-form{
+    width: 100px !important;
+}
+/* End Span width size*/
+
+/* Style Info Products */
+
+.mytable {
+    background-color:#425e65 !important ;
+}
+
+.mytable tr:nth-last-of-type(odd) {
+    background-color: #3f5960 !important;
+}
+.mytable td {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    border: none !important;
+}
+
+.custom-fa a i {
+    color: #cdcdcd !important;
+    transition: all 0.3s ease;
+}
+
+.custom-fa a i:hover {
+    color: #f58221 !important;
+}
+
+.custom-ul li div {
+    background-color: #f1e9e9 !important;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    color: #000 !important;
+}
+.custom-ul li div p {
+    color: #000080 !important;
+    font-size: smaller !important;
+}
+
+.custom-border-ul::before {
+    content: '';
+    width: 3px;
+    height: 154%;
+    display: block;
+    background-color: #ccc;
+    position: absolute;
+    right:25px;
+    top: 0px;
+    z-index: 20;
+}
+.custom-li-hover:hover i {
+    color: #c83232 !important;
+}
+
+.custom-li-hover i {
+    color: #5a9b99 !important;
+    font-size: 43px !important;
+    transition: all 0.2s ease;
+    z-index: 99;
+}
+.custom-card-header a {
+    font-size: smaller !important;
+    color: #000 !important;
+}
+
+.rate {
+    position: relative;
+    display: inline-block;
+    bottom: 5px !important;
+}
+.rate:not(:checked)>input {
+    position: relative;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 25px;
+    color: #ccc;
+}
+.rate:not(:checked)>label:before {
+    content: "★";
+}
+
+.rate>input:checked~label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover, .rate:not(:checked)>label:hover~label {
+    color: #deb217;
+}
+
+.rate>input:checked+label:hover  {
+    color: #c59b08;
+}
+.rate>input:checked+label:hover~label {
+    color: #c59b08;
+}
+
+.rate>input:checked~label:hover {
+    color: #c59b08;
+}
+.rate>input:checked~label:hover~label {
+    color: #c59b08;
+}
+.rate>label:hover~input:checked~label {
+    color: #c59b08;
+}
+
+.custom-lable label:after {
+    content: '*';
+    color: red;
+}
+.send-answer {
+    transition: all 0.2s ease;
+}
+.send-answer a {
+    font-size: 10px;
+    color: #8e8e8e;
+}
+.send-answer:hover {
+    background-color: #eaeaea !important;
+}
+textarea {
+    outline: none;
+}
+/* Start Map Address*/
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/* End Map Address*/
+
+/* Start Card Image Size*/
+.image{
+    width: 100% !important;
+    height: 190px !important;
+}
+/* End Card Image Size*/
